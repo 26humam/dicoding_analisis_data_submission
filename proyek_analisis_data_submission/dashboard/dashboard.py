@@ -11,8 +11,7 @@ st.set_page_config(page_title="Dashboard Analisis Penyewaan Sepeda", layout="wid
 # mengload data df_day.csv
 @st.cache_data
 def load_data():
-    file_path = os.path.join(os.path.dirname(__file__), "df_day.csv")
-    # file_path = "dashboard/df_day.csv"
+    file_path = "dashboard/df_day.csv"
     try:
         df = pd.read_csv(file_path)
         return df
