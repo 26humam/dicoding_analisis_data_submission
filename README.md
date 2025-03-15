@@ -1,5 +1,8 @@
 # Dashboard Analisis Penyewaan Sepeda ✨
 
+## Setup Python version
+Using Python 3.11 version
+
 ## Setup Environment - Shell/Terminal
 ```
 mkdir proyek_analisis_data_submission
