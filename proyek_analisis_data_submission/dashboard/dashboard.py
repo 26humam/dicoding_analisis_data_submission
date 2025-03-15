@@ -25,7 +25,7 @@ df = load_data()
 # membuat sidebar
 with st.sidebar:
     # menambahkan logo
-    logo_path = os.path.join(current_dir, "dashboard", "logo.png")
+    st.image("logo.png")
     st.title("Rental Sepeda")
 
     st.sidebar.header("Filter Rentang Waktu")
